@@ -10,11 +10,10 @@ public class Jogador {
             this.energia -= arma.custoDeEnergia;
         }
     }
-    Jogador(){
-        this.vida = 10;
-        this.energia = 10;
-    }
-    Jogador(Arma arma, int energia, int vida){
+    public Jogador(){
+        
+    }    
+    public Jogador(Arma arma, int energia, int vida){
        this.arma = arma;
         this.vida = vida;
        this.energia = energia;
